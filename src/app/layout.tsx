@@ -20,15 +20,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-    title: "Luiz Leal · Portifólio",
+    title: "Luiz Leal · Portfólio",
     description:
         "Desenvolvedor de apps Android nativo, programo para web quando não tem jeito, e às vezes me aventuro como designer.",
-    applicationName: "Portifólio",
+    applicationName: "Portfólio",
     authors: [{ name: "Luiz André Leal", url: "https://luizleal.dev" }],
     creator: "Luiz André Leal",
     metadataBase: new URL("https://www.luizleal.dev"),
     openGraph: {
-        title: "Luiz Leal · Portifólio",
+        title: "Luiz Leal · Portfólio",
         description:
             "Desenvolvedor de apps Android nativo, programo para web quando não tem jeito, e às vezes me aventuro como designer.",
         url: "https://www.luizleal.dev",
