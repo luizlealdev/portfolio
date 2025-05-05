@@ -15,13 +15,6 @@
       }
     },
     {
-      "name": "Android Studio",
-      "iconPath": {
-        "normal": "/skills-icons/androidstudio-icon.png",
-        "dark": null
-      }
-    },
-    {
       "name": "Kotlin",
       "iconPath": {
         "normal": "/skills-icons/kotlin-icon.png",
@@ -50,10 +43,31 @@
       }
     },
     {
+      "name": "TailwindCSS",
+      "iconPath": {
+        "normal": "/skills-icons/tailwindcss-icon.png",
+        "dark": null
+      }
+    },
+    {
+      "name": "Spring",
+      "iconPath": {
+        "normal": "/skills-icons/spring-icon.png",
+        "dark": null
+      }
+    },
+    {
       "name": "NestJS",
       "iconPath": {
         "normal": "/skills-icons/nestjs-icon.png",
         "dark": null
+      }
+    },
+    {
+      "name": "NextJS",
+      "iconPath": {
+        "normal": "/skills-icons/nextjs-icon.png",
+        "dark": "/skills-icons/nextjs-icon-dark.png"
       }
     },
     {
@@ -115,20 +129,6 @@
       }
     },
     {
-      "name": "TailwindCSS",
-      "iconPath": {
-        "normal": "/skills-icons/tailwindcss-icon.png",
-        "dark": null
-      }
-    },
-    {
-      "name": "NextJS",
-      "iconPath": {
-        "normal": "/skills-icons/nextjs-icon.png",
-        "dark": "/skills-icons/nextjs-icon-dark.png"
-      }
-    },
-    {
       "name": "Prisma",
       "iconPath": {
         "normal": "/skills-icons/prisma-icon.png",
@@ -154,6 +154,20 @@
       "iconPath": {
         "normal": "/skills-icons/docker-icon.png",
         "dark": null
+      }
+    },
+    {
+      "name": "AWS",
+      "iconPath": {
+        "normal": "/skills-icons/aws-icon.png",
+        "dark": "/skills-icons/aws-icon-dark.png"
+      }
+    },
+    {
+      "name": "Azure",
+      "iconPath": {
+        "normal": "/skills-icons/azure-icon.png",
+        "dark":  null
       }
     }
   ]
