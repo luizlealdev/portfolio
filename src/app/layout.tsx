@@ -3,8 +3,8 @@ import { OverlayProvider } from "@/providers/OverlayProvider";
 import { ThemeModeProvider } from "@/providers/ThemeModeProvider";
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
-
 import { SoundProvider } from "@/providers/SoundProvider";
+
 import "@/styles/animations.css";
 import "@/styles/globals.css";
 
@@ -46,6 +46,33 @@ export const metadata: Metadata = {
     },
     robots: "index, follow",
     category: "Technology",
+    keywords: [
+        "Luiz Leal",
+        "Luiz André Leal",
+        "Luiz Leal Android",
+        "Luiz Leal desenvolvedor",
+        "Luiz Leal portfólio",
+        "Luiz developer",
+        "Desenvolvedor Android",
+        "Portfólio",
+        "Portfólio Android",
+        "Portfólio Web",
+        "Portfólio desenvolvedor",
+        "Portfólio desenvolvedor Android",
+        "Portfólio desenvolvedor Android nativo",
+        "Portfólio desenvolvedor Android Kotlin",
+        "Portfólio desenvolvedor Android Java",
+        "Android Developer",
+        "Android Developer Portfolio",
+        "Android Developer Portfolio Kotlin",
+        "Android Developer Portfolio Java",
+        "Android Developer Portfolio Native",
+        "Android Developer Portfolio Native Kotlin",
+        "luizleal.dev",
+    ],
+    alternates: {
+        canonical: "https://www.luizleal.dev",
+    }
 };
 
 export default function RootLayout({
