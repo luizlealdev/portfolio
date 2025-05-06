@@ -43,24 +43,24 @@ export default function HeaderSection() {
             className="max-w-6xl h-screen max-md:pt-24 max-md:mb-8 mx-auto flex flex-col md:flex-row gap-6 md:gap-10 lg:gap-24 items-center px-6"
             id="home"
         >
-            <motion.div
+            <motion.article
                 {...fadeInUp(20, 0, 1, "some")}
                 className="space-y-2 md:space-y-3"
             >
-                <p className="text-primary-green-light h-5">
+                <div className="text-primary-green-light h-5">
                     <Typewriter
                         words={["Olá, me chamo"]}
                         loop={true}
                         cursor={true}
                     />
-                </p>
-                <h3 className="font-inter font-bold text-font-primary text-6xl lg:text-7xl">
+                </div>
+                <h1 className="font-inter font-bold text-font-primary text-6xl lg:text-7xl">
                     Luiz Leal
-                </h3>
-                <article>
+                </h1>
+                <p>
                     Desenvolvedor de apps Android nativo, programo para web
                     quando não tem jeito, e às vezes me aventuro como designer.
-                </article>
+                </p>
                 <div>
                     <a
                         href="https://bit.ly/curriculo-luiz-leal"
@@ -72,7 +72,7 @@ export default function HeaderSection() {
                         </Button>
                     </a>
                 </div>
-            </motion.div>
+            </motion.article>
             <motion.div
                 {...fadeInUp(20, 0.3, 1, "some")}
                 className="flex justify-center items-center"
